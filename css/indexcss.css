@@ -5,6 +5,20 @@ body{
   background-color: black;  
 }
 
+	a {
+		position: absolute;
+	}
+	.commands {
+		bottom: 40px;
+		left: 1300px;
+		color: rgb(28,28,28);
+	}
+		.tdewf1 {
+		top: 120px;
+		left: 546px;
+		color: white;
+	}
+
 h1 {
   border-right: solid 3px red;
   white-space: nowrap;
