@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+body{
+  padding: 40px;
+  background-color: black;  
+}
+
+h1 {
+  border-right: solid 3px red;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 28px;
+  color: white;
+  margin: 0 auto;
+
+}
+
+/* Animation */
+h1 {
+  animation: animated-text 4s steps(28,end) 1s 1 normal both,
+             animated-cursor 600ms steps(28,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 420px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: red;}
+  to{border-right-color: transparent;}
+}
