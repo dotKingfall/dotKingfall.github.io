@@ -1,0 +1,28 @@
+a {
+		position: absolute;
+	}
+	.commands {
+		bottom: 40px;
+		left: 1300px;
+		color: rgb(28,28,28);
+	}
+		.tdewf1 {
+		top: 120px;
+		left: 546px;
+		color: white;
+	}
+		.tdewf2 {
+			color: white;
+			left: 565px;
+			top: 140px;
+		}
+		.tdewf3 {
+			color: white;
+			top: 160px;
+			left: 558.5px;
+		}
+		.tdewf4 {
+			color: white;
+			bottom: 370px;
+			left: 80px;
+		}
