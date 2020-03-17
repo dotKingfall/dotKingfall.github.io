@@ -5,29 +5,6 @@ body{
   background-color: black;  
 }
 
-	a {
-		position: absolute;
-	}
-	.commands {
-		bottom: 40px;
-		left: 1300px;
-		color: rgb(28,28,28);
-	}
-		.tdewf1 {
-		top: 120px;
-		left: 546px;
-		color: white;
-	}
-		.tdewf2 {
-			color: white;
-			left: 565px;
-			top: 140px;
-		}
-		.tdewf3 {
-			color: white;
-			top: 160px;
-			left: 558.5px;
-
 h1 {
   border-right: solid 3px red;
   white-space: nowrap;
@@ -58,3 +35,26 @@ h1 {
   from{border-right-color: red;}
   to{border-right-color: transparent;}
 }
+
+a {
+		position: absolute;
+	}
+	.commands {
+		bottom: 40px;
+		left: 1300px;
+		color: rgb(28,28,28);
+	}
+		.tdewf1 {
+		top: 120px;
+		left: 546px;
+		color: white;
+	}
+		.tdewf2 {
+			color: white;
+			left: 565px;
+			top: 140px;
+		}
+		.tdewf3 {
+			color: white;
+			top: 160px;
+			left: 558.5px;
