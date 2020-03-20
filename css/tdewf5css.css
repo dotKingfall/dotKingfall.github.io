@@ -1,0 +1,20 @@
+		body {
+			background-image: url(https://ak6.picdn.net/shutterstock/videos/1621186/thumb/1.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			color: white;
+		}
+		h1 {
+			font-family: 'Noto Serif', serif;
+			text-decoration: underline;
+			color: white;
+			text-align: center;
+			position: relative;
+			letter-spacing: 5px;
+			font-size: 48px;
+		}
+		p {
+			color: white;
+			position: relative;
+		}
