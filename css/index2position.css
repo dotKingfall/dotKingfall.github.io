@@ -1,10 +1,11 @@
 a {
-		position: absolute;
+		position: fixed;
 	}
 	.commands {
 		bottom: 40px;
 		left: 1300px;
 		color: rgb(28,28,28);
+		font-size: 8px;
 	}
 		.tdewf1 {
 		top: 120px;
@@ -30,4 +31,9 @@ a {
 			color: white;
 			bottom: 350px;
 			left: 80px;
+		}
+		.tdewf5 {
+			bottom:350px;
+			right:80px;
+			color: white;
 		}
