@@ -1,0 +1,75 @@
+  	/*body {
+	background-color: black;
+	color: white;
+	justify-content: center;  
+  min-height: 100vh;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: 3.5px;
+  font-style: italic;
+}*/
+
+:root {
+  /* Base font size */
+  font-size: 1.8px;   
+  
+  /* Set neon color */
+  --neon-text-color: #D01111;
+  --neon-border-color: rgb(255,0,0);
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background: black;
+  min-height: 25vh;
+}
+
+
+h1 {
+  font-size: 23.4px;
+  font-weight: 200;
+  font-style: italic;
+  color: #181818;
+  border: 0.4rem solid #181818;
+  padding: 0px;
+  letter-spacing: 3.5px;
+  border-radius: 2rem;
+  animation: flickera infinite;
+  animation-duration: 20s;
+  animation-delay: 1.85s;
+  animation-timing-function: linear;
+}
+
+h1::-moz-selection {
+  background-color: var(--neon-text-border);
+  color: #fff;
+}
+
+h1::selection {
+  background-color: var(--neon-tex-border);
+  color: #fff;
+}
+
+h1:focus {
+  outline: none;
+}
+
+
+/* Animate neon flicker */
+
+@keyframes flickera {
+    
+0% {color: #181818;}
+19% {color: #181818;}
+21% {color: #fff;}
+23% {color: #fff;}
+25% {color: #fff;}
+54% {color: #fff}
+100%{color: #fff}
