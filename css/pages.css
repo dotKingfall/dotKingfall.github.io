@@ -11,3 +11,9 @@ hr {
 	border: 1px solid red;
 	max-width: 600px;
 }
+
+.commands {
+	color: rgb(8,8,8);
+	position: absolute;
+	right: 80rem;
+}
