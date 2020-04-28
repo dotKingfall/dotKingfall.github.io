@@ -1,5 +1,6 @@
 			body {
 				overflow: hidden;
+				cursor: default;
 			}
 			
 			#demotext {
@@ -13,6 +14,7 @@
 				 font-family: 'Share Tech Mono', monospace;
 				 position: absolute;
 				 font-size: 1.5em;
+				 cursor: pointer;
 			}
 
 			#demotext a {
