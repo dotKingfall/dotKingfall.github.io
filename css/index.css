@@ -1,0 +1,68 @@
+			body {
+				overflow: hidden;
+			}
+			
+			#demotext {
+				color: white;
+				text-shadow: 3px 2px 3px rgb(255,255,255);
+				 writing-mode: vertical-rl;
+				 text-orientation: upright;
+				 left:42.3%;
+				 bottom: 15%;
+				 opacity: 1.0;
+				 font-family: 'Share Tech Mono', monospace;
+				 position: absolute;
+				 font-size: 1.5em;
+			}
+
+			#demotext a {
+				text-decoration:none;
+				color: white;
+			}
+
+			.navbar {
+				font-family: 'Share Tech Mono', monospace;
+				overflow: hidden;
+				background-color: white;
+			}
+
+			.navbar a {
+			 float: left;
+  		     color: black;
+ 			 text-align: center;
+ 			 padding: 14px 16px;
+ 			 text-decoration: none;
+ 			 font-size: 17px;
+			}
+			
+			.navbar a:hover {
+ 			  background-color: #333;
+  			color: white;
+			}
+
+			.plg a {
+				float: right;
+				background-color: black;
+				color: white;
+			}
+			.plg a:hover {background-color: rgb(255,36,0); color: black;
+			}
+
+			.background {
+				font-family: monospace;
+				opacity: 0.1;
+				font-size: 25px;
+				writing-mode: vertical-rl;
+				position: relative;
+				color: transparent;
+				text-transform: uppercase;
+				line-height: 78px;
+				word-break: keep-all;
+				text-shadow: -2px 3px 2px #fff;
+				max-height: 92%;
+				max-width: 92%;
+			}
+
+			.background a {
+				cursor: default;
+			}
