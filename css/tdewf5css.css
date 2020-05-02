@@ -4,6 +4,7 @@
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			color: white;
+			overflow: auto;
 		}
 
 		h1 {
@@ -14,4 +15,13 @@
 			position: relative;
 			letter-spacing: 5px;
 			font-size: 48px;
+		}
+
+		table {
+			color: black;
+		}
+
+		div a {
+			color: white;
+			text-decoration: none;
 		}

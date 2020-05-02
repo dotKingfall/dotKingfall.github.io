@@ -1,0 +1,9 @@
+h1 {
+	text-align: center;
+}
+
+h1 a {
+	cursor: text;
+	text-decoration: none;
+	color: inherit;
+}
