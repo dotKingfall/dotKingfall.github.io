@@ -1,0 +1,92 @@
+/*body {
+	background-color: black;
+	color: white;
+	justify-content: center;  
+  min-height: 100vh;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: 3.5px;
+  font-style: italic;
+}*/
+
+:root {
+  /* Base font size */
+  font-size: 1.8px;   
+  
+  /* Set neon color */
+  --neon-text-color: #D01111;
+  --neon-border-color: rgb(255,0,0);
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background: black;
+  min-height: 25vh;
+}
+
+
+div {
+  font-size: 23.4px;
+  font-weight: 200;
+  font-style: italic;
+  color: #181818;
+  border: 0.4rem solid #181818;
+  padding: 0px;
+  letter-spacing: 3.5px;
+  border-radius: 2rem;
+  animation: flicker 1.5s infinite alternate;
+  animation-delay: 0.4s;
+  animation-iteration-count: 3.5;
+}
+
+div::-moz-selection {
+  background-color: var(--neon-text-border);
+  color: var(--neon-border-color);
+}
+
+div::selection {
+  background-color: var(--neon-tex-border);
+  color: var(--neon-border-color);
+}
+
+div:focus {
+  outline: none;
+}
+
+
+/* Animate neon flicker */
+
+@keyframes flicker {
+    
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      
+        text-shadow:
+            -0.2rem -0.2rem 1rem transparent,
+            0.2rem 0.2rem 1rem transparent,
+            0 0 2rem var(--neon-text-color),
+            0 0 4rem var(--neon-text-color),
+            0 0 6rem var(--neon-text-color),
+            0 0 8rem var(--neon-text-color),
+            0 0 10rem var(--neon-text-color);
+        
+        box-shadow:
+            0 0 .5rem blue,
+            inset 0 0 .5rem blue,
+            0 0 2rem var(--neon-border-color),
+            inset 0 0 2rem var(--neon-border-color),
+            0 0 4rem var(--neon-border-color),
+            inset 0 0 4rem var(--neon-border-color);        
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+        box-shadow: none;
+    }
+}
